@@ -15,6 +15,7 @@
     </folder>
 
     <attr name="Menu\Project\position" intvalue="350"/>
+    <attr name="Menu\Score\position" intvalue="360"/>
     <attr name="Menu\Script\position" intvalue="1100"/>
     <attr name="Windows2\Components\output.settings\position" intvalue="600"/>
     <attr name="Windows2\Components\properties.settings\position" intvalue="700"/>
@@ -208,6 +209,10 @@
             </file>
         </folder>
 
+        <folder name="Score">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="blue.ui.core.Bundle"/>
+        </folder>
+
         <folder name="Tools">
             <file name="blue-ui-core-mixer-EffectsLibraryAction.shadow">
                 <attr name="originalFile" stringvalue="Actions/Tools/blue-ui-core-mixer-EffectsLibraryAction.instance"/>
@@ -322,6 +327,5 @@
     <folder name="Windows2">
         <file name="WindowManager.wswmgr" url="WindowManager.wswmgr"/>
     </folder>
-
 
 </filesystem>
